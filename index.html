@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manzoni</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#8b5e3c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Manzoni">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="pwa.js"></script>
+</head>
+<body>
+  <aside class="drawer" data-drawer>
+    <div class="icon-group" style="justify-content:space-between;margin-bottom:14px"><h2>Indice</h2><button class="icon-btn" data-menu-toggle>✕</button></div>
+    <nav class="navlist"><a href="index.html" data-close-drawer>Home</a>
+<a href="conversione.html" data-close-drawer>Conversione religiosa</a>
+<a href="opere.html" data-close-drawer>Primo momento: opere</a>
+<a href="provvidenza.html" data-close-drawer>Secondo momento: Provvidenza</a>
+<a href="promessi-sposi.html" data-close-drawer>I promessi sposi</a>
+<a href="personaggi.html" data-close-drawer>Personaggi e conversioni</a>
+<a href="capitoli.html" data-close-drawer>Capitoli chiave</a><a href="assets/docs/lezione%20su%20Manzoni.pdf" data-close-drawer>PDF originale</a></nav>
+  </aside>
+  <div class="overlay" data-overlay></div>
+  <header class="topbar">
+    <div class="brand"><img src="assets/icons/icon-192.png" alt="Icona Manzoni"><div><div>Manzoni</div><div class="subtitle">Manuale interattivo installabile</div></div></div>
+    <div class="icon-group">
+      <a class="icon-btn" href="index.html" aria-label="Home">⌂</a>
+      <a class="icon-btn" href="assets/docs/lezione%20su%20Manzoni.pdf" aria-label="PDF originale">PDF</a>
+      <button class="icon-btn" data-menu-toggle aria-label="Apri indice">☰</button>
+    </div>
+  </header>
+
+  <main class="hero">
+    <section class="hero-card">
+      <div class="hero-image" role="img" aria-label="Copertina della lezione su Manzoni"></div>
+      <div class="hero-copy">
+        <div class="small-note">PWA didattica</div>
+        <h1>Alessandro Manzoni</h1>
+        <p>Questa versione trasforma il PDF in un manuale navigabile: prima la conversione religiosa e letteraria, poi il rapporto con la Provvidenza, infine <em>I promessi sposi</em> come luogo in cui il vero, l’utile e l’interessante si tengono insieme.</p>
+        <div class="pill-row">
+          <span class="pill">Installabile</span>
+          <span class="pill">Offline per la shell</span>
+          <span class="pill">Testi + schemi dal PDF</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn primary" href="conversione.html">Inizia la lezione</a>
+          <a class="btn" href="assets/docs/lezione%20su%20Manzoni.pdf">Apri il PDF</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="update-banner" class="update-banner"><span>Aggiornamento disponibile</span><button id="reload-app">Ricarica</button></div>
+  <footer class="footer">PWA didattica su Manzoni · pronta per GitHub Pages e installazione su dispositivi mobili</footer>
+</body>
+</html>

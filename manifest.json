@@ -1,0 +1,28 @@
+{
+  "name": "Manzoni - Manuale interattivo",
+  "short_name": "Manzoni",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f1e8",
+  "theme_color": "#8b5e3c",
+  "description": "PWA didattica su Alessandro Manzoni, con lezioni, schemi e pagine dedicate ai Promessi sposi.",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icons/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personaggi, colpa, redenzione</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#8b5e3c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Manzoni">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="pwa.js"></script>
+</head>
+<body>
+  <aside class="drawer" data-drawer>
+    <div class="icon-group" style="justify-content:space-between;margin-bottom:14px"><h2>Indice</h2><button class="icon-btn" data-menu-toggle>✕</button></div>
+    <nav class="navlist"><a href="index.html" data-close-drawer>Home</a>
+<a href="conversione.html" data-close-drawer>Conversione religiosa</a>
+<a href="opere.html" data-close-drawer>Primo momento: opere</a>
+<a href="provvidenza.html" data-close-drawer>Secondo momento: Provvidenza</a>
+<a href="promessi-sposi.html" data-close-drawer>I promessi sposi</a>
+<a href="personaggi.html" data-close-drawer>Personaggi e conversioni</a>
+<a href="capitoli.html" data-close-drawer>Capitoli chiave</a><a href="assets/docs/lezione%20su%20Manzoni.pdf" data-close-drawer>PDF originale</a></nav>
+  </aside>
+  <div class="overlay" data-overlay></div>
+  <header class="topbar">
+    <div class="brand"><img src="assets/icons/icon-192.png" alt="Icona Manzoni"><div><div>Personaggi, colpa, redenzione</div><div class="subtitle">Manuale interattivo installabile</div></div></div>
+    <div class="icon-group">
+      <a class="icon-btn" href="index.html" aria-label="Home">⌂</a>
+      <a class="icon-btn" href="assets/docs/lezione%20su%20Manzoni.pdf" aria-label="PDF originale">PDF</a>
+      <button class="icon-btn" data-menu-toggle aria-label="Apri indice">☰</button>
+    </div>
+  </header>
+<main class="main"><div class="page"><section class="section-hero"><h1>Personaggi, colpa, redenzione</h1><p>La struttura morale del romanzo emerge con forza nella pagina del PDF che dispone le figure in tre colonne: negative, redente, positive. Non è un giochino scolastico: è la mappa del movimento etico del romanzo.</p></section>
+<div class="grid-2 card">
+  <div class="content">
+    <h2>Figure negative</h2>
+    <p>Don Rodrigo e Gertrude rappresentano l’uso distorto del privilegio. Don Abbondio e Azzeccagarbugli mostrano invece la degenerazione dei ceti medi: paura, ignoranza, rinuncia alla responsabilità. La folla violenta di Milano esprime il lato cieco della ribellione popolare.</p>
+    <h2>Figure redente e positive</h2>
+    <p>L’Innominato viene toccato dalla sofferenza di Lucia e cambia. Renzo passa attraverso errore e maturazione. Lucia, fra Cristoforo e il cardinale Federico incarnano, in modi diversi, la forza della fede, della carità e della rettitudine morale.</p>
+  </div>
+  <figure class="figure"><img src="assets/img/personaggi-schema.png" alt="Schema dei personaggi negativi, redenti e positivi"><figcaption>Schema morale del romanzo: figure negative, redente e positive.</figcaption></figure>
+</div>
+<div class="split-cards">
+  <section class="card content">
+    <h2>Fra Cristoforo</h2>
+    <p>Nel riassunto del capitolo IV si vede bene la logica manzoniana: la conversione non cancella il carattere, lo sublima. Ludovico resta uomo energico, ma la sua forza non va più verso la vendetta: si mette al servizio dei deboli.</p>
+    <figure class="figure"><img src="assets/img/fra-cristoforo-schema.png" alt="Schema su fra Cristoforo"><figcaption>La scheda del PDF insiste su superbia, odio, perdono e umiltà.</figcaption></figure>
+  </section>
+  <section class="card content">
+    <h2>Gertrude</h2>
+    <p>La Monaca di Monza non è letta come mostro isolato, ma come prodotto di una costrizione sociale e familiare. La vocazione imposta diventa deformazione della persona. Il PDF lo dice in modo semplice e giusto: nessuna vocazione deve essere imposta.</p>
+    <figure class="figure"><img src="assets/img/gertrude-schema.png" alt="Schema su Gertrude"><figcaption>La pagina ricostruisce la storia di Gertrude e il tema della vocazione forzata.</figcaption></figure>
+  </section>
+</div>
+</div></main>
+  <div id="update-banner" class="update-banner"><span>Aggiornamento disponibile</span><button id="reload-app">Ricarica</button></div>
+  <footer class="footer">PWA didattica su Manzoni · pronta per GitHub Pages e installazione su dispositivi mobili</footer>
+</body>
+</html>
