@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renzo nel lazzaretto</title>
+  <meta name="description" content="Lezione completa su Alessandro Manzoni in formato PWA installabile.">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#5c3a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Manzoni PWA">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="pwa.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Home">
+    <span class="brand-mark">M</span>
+    <span class="brand-text">Manzoni PWA</span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="drawer">☰</button>
+  <nav class="top-nav">
+    <a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a>
+  </nav>
+</header>
+<aside id="drawer" class="drawer">
+  <div class="drawer-inner">
+    <h2>Indice</h2>
+    <nav class="drawer-nav"><a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a></nav>
+    <a class="pdf-link" href="assets/docs/lezione-su-Manzoni.pdf" target="_blank" rel="noopener">Apri il PDF originale</a>
+  </div>
+</aside>
+<div class="drawer-backdrop"></div>
+
+<main class="page-shell">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Lezione completa</p>
+      <h1>Renzo nel lazzaretto</h1>
+      <p>Il punto finale del romanzo morale: vendetta o perdono, disperazione o crescita. Manzoni sceglie senza esitazioni.</p>
+    </div>
+  </section>
+  
+<section class="grid cols-2">
+  <article class="card">
+    <h2>Capitolo XXXV: la conversione di Renzo</h2>
+    <p>Nel lazzaretto Renzo entra in un luogo che concentra sofferenza, follia, malattia e carità. Il quadro è cupissimo, ma non disperato: i cappuccini tengono un ordine umano dentro la devastazione, e perfino le capre che allattano i bambini sembrano partecipare a una resistenza della vita contro la morte.</p>
+    <p>Qui Renzo ritrova fra Cristoforo. Il frate lo mette di fronte al punto decisivo: non basta aver sofferto, bisogna scegliere se trasformare il dolore in vendetta o in maturazione. Renzo vorrebbe vendicarsi di don Rodrigo; fra Cristoforo gli oppone la legge cristiana del perdono.</p>
+    <p>La vera svolta avviene quando Renzo accetta di perdonare. Solo allora il suo percorso si chiude davvero: non è più il giovane impulsivo dei tumulti, ma un uomo che ha imparato qualcosa dalla sventura.</p>
+  </article>
+  <figure class="figure">
+    <img src="assets/img/pages/page-25.webp" alt="Conversione di Renzo nel lazzaretto">
+    <figcaption>Riassunto del capitolo XXXV: lazzaretto, incontro con fra Cristoforo, perdono e visione di don Rodrigo moribondo.</figcaption>
+  </figure>
+</section>
+
+<section class="card">
+  <h2>Perché conta così tanto</h2>
+  <p>Qui si vede in modo limpido la logica della provvida sventura. La peste non viene abbellita. È orrore puro. Ma dentro quell’orrore la Provvidenza apre possibilità di verità: fra Cristoforo espia servendo, don Rodrigo riceve almeno un’ultima occasione, Renzo abbandona la vendetta, Lucia viene ritrovata. La storia non diventa giusta; però il male non è l’ultima parola.</p>
+  <div class="quote">La Provvidenza non assicura felicità ai buoni: trasforma la sventura in occasione di maturazione, perdono e redenzione.</div>
+</section>
+
+</main>
+<div id="update-toast" class="update-toast" hidden>
+  <span>Aggiornamento disponibile.</span>
+  <button id="reload-app">Ricarica</button>
+</div>
+</body>
+</html>

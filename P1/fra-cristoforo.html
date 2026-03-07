@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fra Cristoforo: la forza convertita</title>
+  <meta name="description" content="Lezione completa su Alessandro Manzoni in formato PWA installabile.">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#5c3a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Manzoni PWA">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="pwa.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Home">
+    <span class="brand-mark">M</span>
+    <span class="brand-text">Manzoni PWA</span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="drawer">☰</button>
+  <nav class="top-nav">
+    <a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a>
+  </nav>
+</header>
+<aside id="drawer" class="drawer">
+  <div class="drawer-inner">
+    <h2>Indice</h2>
+    <nav class="drawer-nav"><a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a></nav>
+    <a class="pdf-link" href="assets/docs/lezione-su-Manzoni.pdf" target="_blank" rel="noopener">Apri il PDF originale</a>
+  </div>
+</aside>
+<div class="drawer-backdrop"></div>
+
+<main class="page-shell">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Lezione completa</p>
+      <h1>Fra Cristoforo: la forza convertita</h1>
+      <p>Un carattere impetuoso non viene annullato, ma piegato verso la giustizia e la difesa dei deboli.</p>
+    </div>
+  </section>
+  
+<section class="grid cols-2">
+  <article class="card">
+    <h2>Capitolo IV: la storia di fra Cristoforo</h2>
+    <p>Quando fra Cristoforo esce dal convento di Pescarenico per andare da Lucia, il paesaggio autunnale è bello, ma il frate vede ovunque i segni della sofferenza: povertà, carestia, miseria. È un personaggio che legge il male nella realtà concreta, non nelle astrazioni.</p>
+    <p>La sua storia precedente spiega tutto. Da giovane si chiamava Ludovico, figlio di un ricco mercante che aveva cercato di vivere da signore. In lui restano fierezza, impulsività e insofferenza verso la prepotenza nobiliare. In una disputa uccide un nobile dopo che il suo servo Cristoforo è stato ammazzato. Da qui nasce la conversione: dona i beni alla famiglia del servo, entra nei cappuccini, prende il nome di Cristoforo e trasforma il proprio impulso di giustizia in servizio agli oppressi.</p>
+  </article>
+  <figure class="figure">
+    <img src="assets/img/pages/page-18.webp" alt="Fra Cristoforo">
+    <figcaption>Riassunto del capitolo IV: la biografia di Ludovico e la nascita di fra Cristoforo.</figcaption>
+  </figure>
+</section>
+
+<section class="grid cols-2">
+  <article class="card">
+    <h2>Che cosa rappresenta</h2>
+    <ul>
+      <li>l’arroganza del potere prima o poi presenta il conto;</li>
+      <li>l’odio porta all’omicidio;</li>
+      <li>il riconoscimento del proprio peccato apre al perdono;</li>
+      <li>la conversione non cancella il carattere: lo sublima.</li>
+    </ul>
+    <p>Fra Cristoforo resta energico, ma ora la sua forza si mette al servizio dei deboli. Qui Manzoni costruisce una delle sue figure redentrici più alte.</p>
+  </article>
+  <figure class="figure">
+    <img src="assets/img/pages/page-19.webp" alt="Schema su Fra Cristoforo">
+    <figcaption>Schema del PDF: povertà e carestia, nobiltà arrogante, alta borghesia senza identità, conversione e utilità morale del personaggio.</figcaption>
+  </figure>
+</section>
+
+</main>
+<div id="update-toast" class="update-toast" hidden>
+  <span>Aggiornamento disponibile.</span>
+  <button id="reload-app">Ricarica</button>
+</div>
+</body>
+</html>

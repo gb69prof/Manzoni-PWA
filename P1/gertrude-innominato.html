@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gertrude e l’Innominato</title>
+  <meta name="description" content="Lezione completa su Alessandro Manzoni in formato PWA installabile.">
+  
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#5c3a2e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Manzoni PWA">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="icon" href="assets/icons/icon-192.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+  <script defer src="pwa.js"></script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Home">
+    <span class="brand-mark">M</span>
+    <span class="brand-text">Manzoni PWA</span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="drawer">☰</button>
+  <nav class="top-nav">
+    <a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a>
+  </nav>
+</header>
+<aside id="drawer" class="drawer">
+  <div class="drawer-inner">
+    <h2>Indice</h2>
+    <nav class="drawer-nav"><a href="index.html">Home</a><a href="conversione.html">La conversione</a><a href="primo-momento.html">Primo momento</a><a href="secondo-momento.html">Secondo momento</a><a href="promessi-sposi.html">I promessi sposi</a><a href="capitolo-1.html">Capitolo I</a><a href="fra-cristoforo.html">Fra Cristoforo</a><a href="gertrude-innominato.html">Gertrude e Innominato</a><a href="renzo-lazzaretto.html">Renzo nel lazzaretto</a></nav>
+    <a class="pdf-link" href="assets/docs/lezione-su-Manzoni.pdf" target="_blank" rel="noopener">Apri il PDF originale</a>
+  </div>
+</aside>
+<div class="drawer-backdrop"></div>
+
+<main class="page-shell">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Lezione completa</p>
+      <h1>Gertrude e l’Innominato</h1>
+      <p>Due figure opposte e complementari: una vocazione forzata che precipita nella colpa, una potenza criminale che cede alla grazia.</p>
+    </div>
+  </section>
+  
+<section class="grid cols-2">
+  <article class="card">
+    <h2>Gertrude: una vocazione imposta</h2>
+    <p>La monaca di Monza entra in scena come figura inquieta e ambigua. La sua storia è una critica feroce a un sistema familiare e sociale che decide il destino delle figlie in nome del patrimonio e del decoro. Gertrude, ultimogenita di una grande famiglia nobile, è educata fin da bambina a diventare monaca senza che nessuno glielo dica apertamente: tutto intorno a lei è allusione, pressione, premio, ricatto.</p>
+    <p>Quando prova a sottrarsi, trova solo gelo, colpa e violenza psicologica. La scelta religiosa non nasce da vocazione, ma da costrizione. Da qui la deformazione interiore che la porterà poi verso Egidio, il delitto e il tradimento.</p>
+  </article>
+  <figure class="figure">
+    <img src="assets/img/pages/page-22.webp" alt="Schema su Gertrude">
+    <figcaption>Schema su Gertrude: secondogenite nobili, vocazione imposta, passioni proibite e caduta morale.</figcaption>
+  </figure>
+</section>
+
+<section class="card">
+  <h2>Lezione implicita</h2>
+  <p>Manzoni colpisce duro: una vocazione imposta è una violenza. Qui non c’è solo il dramma individuale di Gertrude, ma una critica a un’intera civiltà nobiliare che usa i figli come pedine patrimoniali.</p>
+</section>
+
+<section class="grid cols-2">
+  <article class="card">
+    <h2>La conversione dell’Innominato</h2>
+    <p>L’Innominato è l’altro grande snodo. Ha costruito la propria identità sulla trasgressione, sul dominio e sul terrore. Ma il rapimento di Lucia lo spezza. Per la prima volta sente il peso della morte, del giudizio, del vuoto. Lucia, con la frase sul perdono di Dio per un’opera di misericordia, apre una fessura nella sua corazza.</p>
+    <p>La notte è decisiva: non riesce più a reggere se stesso, pensa al suicidio, poi la memoria dell’infanzia e il desiderio di senso lo portano verso il cardinale Federigo Borromeo. L’incontro con il cardinale compie la svolta. L’Innominato piange, si converte, cambia il proprio territorio e decide che sotto il suo potere non si compiano più violenze.</p>
+  </article>
+  <figure class="figure">
+    <img src="assets/img/pages/page-24.webp" alt="La conversione dell'Innominato">
+    <figcaption>Il PDF dedica un lungo riassunto alla notte dell’Innominato e all’incontro con Federigo Borromeo.</figcaption>
+  </figure>
+</section>
+
+</main>
+<div id="update-toast" class="update-toast" hidden>
+  <span>Aggiornamento disponibile.</span>
+  <button id="reload-app">Ricarica</button>
+</div>
+</body>
+</html>
