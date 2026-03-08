@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test interattivo · Manzoni e la Provvidenza</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#7a2e24">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Manzoni">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="app.css">
+<script src="app.js" defer></script>
+<script src="pwa.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html" aria-label="Home">⌂</a>
+    <div class="page-title">Test interattivo</div>
+    <a class="icon-btn" href="https://chatgpt.com/g/g-2LOOhMW7F-libera-manzoniana" target="_blank" rel="noopener" aria-label="Apri chatbot">✦</a>
+    <div class="menu"><details><summary aria-label="Apri indice">☰</summary><div class="menu-panel"><h3>Indice collegato</h3><a href="index.html">Manzoni e la Provvidenza</a></div></details></div>
+  </div>
+</header>
+<div class="update-banner" id="update-banner">Aggiornamento disponibile <button id="reload-app">Ricarica</button></div>
+<main class="shell">
+  <section class="content-grid">
+    <aside class="media-col">
+      <img class="hero-image" src="assets/Vero-utile-interessante-promessi sposi.PNG" alt="Test interattivo">
+      <div class="placeholder">
+        <strong>Spazio video</strong>
+        I collegamenti video non sono ancora inseriti. Questa pagina è già pronta per accogliere l’embed nella prossima revisione.
+      </div>
+    </aside>
+    <article class="text-col">
+      <p class="kicker">Manzoni e la Provvidenza</p>
+      <p class="lede">Quiz finale per verificare i nodi centrali del percorso: biografia, poetica, Provvidenza, romanzo e personaggi.</p>
+      <section class="section-block"><h2>Istruzioni</h2><p>Rispondi alle domande e premi “Correggi”. Il test è pensato come verifica rapida di ripasso.</p></section>
+      <section class="section-block"><h2>Quiz</h2>
+<form id="quiz-form" class="quiz-wrap"><article class="quiz-q" id="qq-0"><h3>1. In quale anno nasce Alessandro Manzoni?</h3><label><input type="radio" name="q0" value="0"> 1765</label><label><input type="radio" name="q0" value="1"> 1785</label><label><input type="radio" name="q0" value="2"> 1798</label><label><input type="radio" name="q0" value="3"> 1808</label></article><article class="quiz-q" id="qq-1"><h3>2. Quale episodio viene considerato decisivo per il ritorno alla fede di Manzoni?</h3><label><input type="radio" name="q1" value="0"> L’incontro con Cavour</label><label><input type="radio" name="q1" value="1"> La morte di Napoleone</label><label><input type="radio" name="q1" value="2"> L’episodio di Parigi nella chiesa di San Rocco</label><label><input type="radio" name="q1" value="3"> La stesura dell’Adelchi</label></article><article class="quiz-q" id="qq-2"><h3>3. Quale triade riassume la poetica manzoniana?</h3><label><input type="radio" name="q2" value="0"> Bello, sublime, armonia</label><label><input type="radio" name="q2" value="1"> Vero, utile, interessante</label><label><input type="radio" name="q2" value="2"> Gloria, fede, patria</label><label><input type="radio" name="q2" value="3"> Storia, natura, sentimento</label></article><article class="quiz-q" id="qq-3"><h3>4. Nella prima fase della sua riflessione, come si manifesta soprattutto la Provvidenza?</h3><label><input type="radio" name="q3" value="0"> Nella politica risorgimentale</label><label><input type="radio" name="q3" value="1"> Nel momento della morte</label><label><input type="radio" name="q3" value="2"> Nella lingua fiorentina</label><label><input type="radio" name="q3" value="3"> Nella natura</label></article><article class="quiz-q" id="qq-4"><h3>5. Quale testo segna la maturazione verso una Provvidenza presente nella storia?</h3><label><input type="radio" name="q4" value="0"> La Pentecoste</label><label><input type="radio" name="q4" value="1"> Il cinque maggio</label><label><input type="radio" name="q4" value="2"> Marzo 1821</label><label><input type="radio" name="q4" value="3"> Il conte di Carmagnola</label></article><article class="quiz-q" id="qq-5"><h3>6. Chi impedisce all’inizio il matrimonio tra Renzo e Lucia?</h3><label><input type="radio" name="q5" value="0"> Fra Cristoforo</label><label><input type="radio" name="q5" value="1"> Il cardinale Federigo</label><label><input type="radio" name="q5" value="2"> Don Rodrigo</label><label><input type="radio" name="q5" value="3"> L’Innominato</label></article><article class="quiz-q" id="qq-6"><h3>7. Che cosa rappresenta Fra Cristoforo nel romanzo?</h3><label><input type="radio" name="q6" value="0"> La paura</label><label><input type="radio" name="q6" value="1"> La conversione operosa</label><label><input type="radio" name="q6" value="2"> L’opportunismo</label><label><input type="radio" name="q6" value="3"> La ragion di Stato</label></article><article class="quiz-q" id="qq-7"><h3>8. Che cosa si intende con “provvida sventura”?</h3><label><input type="radio" name="q7" value="0"> Che il male non esiste</label><label><input type="radio" name="q7" value="1"> Che ogni sventura è giusta</label><label><input type="radio" name="q7" value="2"> Che dal male può nascere un bene più profondo</label><label><input type="radio" name="q7" value="3"> Che la storia è sempre favorevole ai buoni</label></article></form>
+<div class="quiz-actions">
+  <button type="button" class="action-btn" id="check-quiz">Correggi</button>
+  <button type="button" class="action-btn secondary" id="reset-quiz">Azzera</button>
+</div>
+<div class="score-box" id="score-box"></div>
+</section>
+      
+    </article>
+  </section>
+</main>
+<footer class="footer-bar"><div class="footer-inner two"><a class="footer-link" href="schemi.html"><span>📚</span><span>Approfondimenti</span></a><a class="footer-link" href="test.html"><span>✍️</span><span>Test</span></a></div></footer>
+<div class="modal" id="img-modal"><button class="modal-close" aria-label="Chiudi">×</button><img alt=""></div>
+</body>
+</html>
